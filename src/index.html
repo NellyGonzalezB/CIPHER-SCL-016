@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amig@ date cuenta</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!--LINK PARA FUENTE "UBUNTU"--> 
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo" id="logo">
+      <img src="images/LOGO CIPHER.png" width="185" height="185" alt="logo">
+  </header>
+  <!--PÁGINA PRINCIPAL-->  
+    <section class="pag1" id="pag1">
+      <main class="contenedor">
+          <div id="root">
+             <h1 style="color: gold">EXPRESA TUS SENTIMIENTOS</h1>
+             <h2 style="color: gold;"><br>Con esta App podrás enviar<br> mensajes encriptados a tu <strong>CRUSH,</strong> <br> mediante el <strong> Cifrado César.</strong>
+             <br> <strong> ¿Qué es esto? </strong> Es un método de<br> desplazamiento de letras según<br> números definidos por ti.
+             </h2>
+             <p style="color: gold;">¿LISTO?</p>
+            <button id="comenzar" class="boton1" type="text">COMENZAR</button>
+         </div> 
+        </main> 
+    </section>
+  <!--SEGUNDA PÁGINA-->
+    <section class="pag2" id="pag2">
+      <main class="contenedor2">
+        <textarea type="text" class="mensaje" id="mensaje" rows="3" cols="40" placeholder="¿QUÉ MENSAJE TE GUSTARÍA CIFRAR O DESCIFRAR?"></textarea>
+        <h3 style="color: gold;">NÚMERO DE DESPLAZAMIENTO <br>(LETRAS)</h3>
+          <input type="number" class="mover" id="desplazar"><br>
+        <button id="cifrar" type="text" class="cifrar">CIFRAR</button>
+        <button id="descifrar" type="text" class="descifrar">DESCIFRAR</button>
+        <p style="color: gold;">RESULTADO</p>
+        <input type="text" class="resultado" id="resultado">
+        <h1 style="color: gold;">Envía este mensaje a tu CRUSH</h1>
+        <a href="https://web.whatsapp.com/">
+          <img src="./images/whatsapp.png" width="56" height="56" class= "whatsapp" alt="whatsapp">
+        </a>
+      </main>
+    </section>
+     <script src="index.js" type="module"></script>
+</body>
+
+</html>

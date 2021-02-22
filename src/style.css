@@ -1,0 +1,163 @@
+body{
+font-family: 'Ubuntu', sans-serif;
+background-image: url("./images/fondo.jpg");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+.logo{
+text-align: center;
+cursor: pointer;
+}
+
+h1{
+font-size: 31px;
+text-align: center;
+font-family: 'Ubuntu';
+margin-top: 30px;
+margin-bottom: 30px;
+padding-top: 20px;
+letter-spacing: normal;
+}
+h2{
+font-size: 18px;
+text-align: center;
+font-family: 'Ubuntu';
+margin-top: -30px;
+line-height: 23px;
+font-weight: normal;
+letter-spacing: normal;
+}   
+
+h3{
+font-size: 20px;
+text-align: center;
+font-family: 'Ubuntu';
+cursor: pointer;
+letter-spacing: normal;
+}
+
+p{
+font-size: 30px;
+text-align: center;
+font-family: 'Ubuntu';
+font-weight: bold;
+letter-spacing: normal;
+}
+
+
+.boton1{
+color: white;
+border-radius: 30px;
+cursor: pointer;
+background-color: #EC1997;
+border: none;
+float:none;
+text-align:center;
+font-size: 30px;
+width: 300px;
+height: 65px;
+margin-bottom: -20px;
+font-weight: bold;
+letter-spacing: 3px;
+}
+
+.contenedor{
+width: 379px;
+height: 450px;
+background-color: #E7509C;
+margin: auto;
+text-align: center;
+border-radius: 27px;
+opacity:90%;
+}
+
+.contenedor2{
+width: 379px;
+height: 689px;
+background-color: #E7509C;
+margin: auto;
+text-align: center;
+border-radius: 27px;
+opacity:90%;
+margin-top: 30px;
+}
+
+.mensaje{
+text-align: center;
+font-family: 'Ubuntu';
+font-size: 15px;
+margin-top: 50px;
+border-radius: 20px;
+color: dimgray;
+font-weight: bold;
+letter-spacing: normal;
+border: none;
+float:none;
+}
+
+.mover{
+width: 82px;
+height: 36px;
+font-size: 20px;
+margin-bottom: 30px;
+border-radius: 20px;
+border: none;
+float:none;
+text-align: center;
+color: #920258;
+font-weight: bold;
+}
+
+.cifrar{
+width: 120px;
+height: 80;
+font-family: 'Ubuntu';
+background-color: #920258;
+color:white;
+font-size: 19px;
+width: 140px;
+height: 40px;
+border: none;
+float:none;
+border-radius: 20px;
+font-weight: bold;
+cursor: pointer;
+}
+
+.descifrar{
+width: 120px;
+height: 80;
+font-family: 'Ubuntu';
+background-color:#920258;
+color:white;
+font-size: 19px;
+width: 140px;
+height: 40px;
+border: none;
+float:none;
+border-radius: 20px;
+font-weight: bold;
+cursor: pointer;
+}
+
+.resultado{
+width: 300px;
+height: 40px;
+font-family: 'Ubuntu';
+font-size: 15px;
+margin-bottom: 8px;
+border: none;
+float:none;
+border-radius: 20px;
+color: dimgray;
+font-weight: bold;
+letter-spacing: normal;
+}
+
+.whatsapp{
+cursor: pointer;    
+margin-top: -15px;;
+}
+
