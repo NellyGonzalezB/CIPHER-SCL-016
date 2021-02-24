@@ -22,5 +22,23 @@
     "jest": "^26.6.1",
     "opener": "^1.5.1",
     "serve": "^11.0.0"
-  }
+  },
+  "description": "*NOMBRE DE LA APLICACIÓN* : Amig@ date cuenta",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NellyGonzalezB/CIPHER-SCL-016.git"
+  },
+  "keywords": [
+    "jest",
+    "testing"
+  ],
+  "author": "Nelly Gonzalez",
+  "bugs": {
+    "url": "https://github.com/NellyGonzalezB/CIPHER-SCL-016/issues"
+  },
+  "homepage": "https://github.com/NellyGonzalezB/CIPHER-SCL-016#readme"
 }
