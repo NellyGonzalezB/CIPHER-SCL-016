@@ -8,7 +8,7 @@ Esta App está pensada para jóvenes, personas que utilizan constantemente redes
 - ¿Cuáles son los objetivos que estos usuarios pueden conseguir al usar tu producto?
 Amig@ date cuenta está pensado para que los usuarios puedan expresar sus sentimientos a la persona que les gusta, mediante un mensaje encriptado que luego es enviado por Whatsapp.
 
--¿Cómo crees que el producto que estás creando está resolviendo sus necesidades?
+- ¿Cómo crees que el producto que estás creando está resolviendo sus necesidades?
 La App está pensada para diferentes situaciones, para personas más tímidas, que les cueste decir directamente lo que sienten por alguien. Para quienes quieran dar un detalle más dinámico y fuera de lo común y para quieren producto de la pandemia no pueden tener contacto cercano con su Crush y quieran declararse.
 
 ### PROCESO DE CREACIÓN ###

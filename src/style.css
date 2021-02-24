@@ -19,7 +19,9 @@ margin-top: 30px;
 margin-bottom: 30px;
 padding-top: 20px;
 letter-spacing: normal;
+color: gold;;
 }
+
 h2{
 font-size: 18px;
 text-align: center;
@@ -28,6 +30,7 @@ margin-top: -30px;
 line-height: 23px;
 font-weight: normal;
 letter-spacing: normal;
+color: gold;
 }   
 
 h3{
@@ -36,6 +39,7 @@ text-align: center;
 font-family: 'Ubuntu';
 cursor: pointer;
 letter-spacing: normal;
+color: gold;
 }
 
 p{
@@ -44,6 +48,7 @@ text-align: center;
 font-family: 'Ubuntu';
 font-weight: bold;
 letter-spacing: normal;
+color: gold;
 }
 
 

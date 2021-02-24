@@ -19,11 +19,11 @@ const cipher = {
         mensaje = 32;
       }
 
-       resultado += String.fromCharCode(mensaje);
-      }
+      resultado += String.fromCharCode(mensaje);
+    }
 
-      return resultado;
-      
+    return resultado;
+
   },
 
 
@@ -46,6 +46,39 @@ const cipher = {
       else if (string.charCodeAt(i) === 32) {
         mensaje = 32;
       }
+
+      /*Dar alerta de que no pueden usarse números
+      else if (string.charCodeAt(i) == 48) {
+        alert("No puede ser un número");
+      } 
+      else if (string.charCodeAt(i) == 49) {
+        alert("No puede ser un número");
+      }           
+      else if (string.charCodeAt(i) == 50) {
+        alert("No puede ser un número");
+      } 
+      else if (string.charCodeAt(i) == 51) {
+        alert("No puede ser un número");
+      } 
+      else if (string.charCodeAt(i) == 52) {
+        alert("No puede ser un número");
+      } 
+      else if (string.charCodeAt(i) == 53) {
+        alert("No puede ser un número");
+      } 
+      else if (string.charCodeAt(i) == 54) {
+        alert("No puede ser un número");
+      } 
+      else if (string.charCodeAt(i) == 55) {
+        alert("No puede ser un número");
+      } 
+      else if (string.charCodeAt(i) == 56) {
+        alert("No puede ser un número");
+      } 
+      else if (string.charCodeAt(i) == 57) {
+        alert("No puede ser un número");
+      } 
+    */
 
       resultado += String.fromCharCode(mensaje);
     }
