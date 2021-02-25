@@ -19,6 +19,11 @@ const cipher = {
         mensaje = 32;
       }
 
+      //Agregar números del Código ASCII
+      else if (string.charCodeAt(i) >= 48 && string.charCodeAt(i) <= 57) {
+        mensaje = ((string.charCodeAt(i) - 57 + parseInt(offset)) % 10) + 57;
+      }
+
       resultado += String.fromCharCode(mensaje);
     }
 
@@ -47,38 +52,10 @@ const cipher = {
         mensaje = 32;
       }
 
-      /*Dar alerta de que no pueden usarse números
-      else if (string.charCodeAt(i) == 48) {
-        alert("No puede ser un número");
-      } 
-      else if (string.charCodeAt(i) == 49) {
-        alert("No puede ser un número");
-      }           
-      else if (string.charCodeAt(i) == 50) {
-        alert("No puede ser un número");
-      } 
-      else if (string.charCodeAt(i) == 51) {
-        alert("No puede ser un número");
-      } 
-      else if (string.charCodeAt(i) == 52) {
-        alert("No puede ser un número");
-      } 
-      else if (string.charCodeAt(i) == 53) {
-        alert("No puede ser un número");
-      } 
-      else if (string.charCodeAt(i) == 54) {
-        alert("No puede ser un número");
-      } 
-      else if (string.charCodeAt(i) == 55) {
-        alert("No puede ser un número");
-      } 
-      else if (string.charCodeAt(i) == 56) {
-        alert("No puede ser un número");
-      } 
-      else if (string.charCodeAt(i) == 57) {
-        alert("No puede ser un número");
-      } 
-    */
+      //Agregar números del Código ASCII
+      else if (string.charCodeAt(i) >= 48 && string.charCodeAt(i) <= 57) {
+        mensaje = ((string.charCodeAt(i) - 57 - parseInt(offset)) % 10) + 57;
+      }
 
       resultado += String.fromCharCode(mensaje);
     }

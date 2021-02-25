@@ -7,15 +7,15 @@ document.getElementById('pag2').style.display='none';
 let comenzar=document.getElementById('comenzar');
 comenzar.addEventListener('click', pagina2);
 function pagina2(){
-  document.getElementById('pag1').style.display='none';
-  document.getElementById('pag2').style.display='block';
+    document.getElementById('pag1').style.display='none';
+    document.getElementById('pag2').style.display='block';
 }
 //INDICAIÓN PARA VOLVER A LA PÁGINA 1 PRESIONANDO EL LOGO
 let PaginaInicio=document.getElementById('logo');
 PaginaInicio.addEventListener('click', volver);
 function volver(){
-  document.getElementById('pag1').style.display='block';
-  document.getElementById('pag2').style.display='none';
+   document.getElementById('pag1').style.display='block';
+   document.getElementById('pag2').style.display='none';
 }
 //LLAMAR FUNCIONES CIFRAR, DESCIFRAR Y RESULTADO, Y UNIENDOLO CON CIPHER.JS
 document.getElementById('cifrar').addEventListener('click', () => {
